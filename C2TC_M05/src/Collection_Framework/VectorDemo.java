@@ -1,7 +1,7 @@
 package Collection_Framework;
 import java.util.Enumeration;
 import java.util.Vector;
-class student2
+class Student2
 {
 	int id;
 	String name;
@@ -23,18 +23,18 @@ public class VectorDemo
 
 	public static void main(String[] args)
 	{
-		Vector V=new vector();
-		student2 s1=new student2(101,"Harry",10);
-		student2 s2=new student2(102,"Potter",10);
+		Vector v=new Vector();
+		Student2 s1=new Student2(101,"Harry",10);
+		Student2 s2=new Student2(102,"Potter",10);
 		v.addElement(s2);
 		v.addElement(s1);
 		v.addElement("999");
 		v.addElement("999");
 		v.addElement(new String("999"));
-		Enumeration e.v.elements();
-		while(e.hashMoreElements())
+		Enumeration e=v.elements();
+		while(e.hasMoreElements())
 		{
-			object o=e.nextElement();
+			Object o=e.nextElement();
 			System.out.println(0);
 		}
 		// TODO Auto-generated method stub

@@ -17,7 +17,7 @@ public class IntDataTypeDemo {
 		
 		long maxlong=9223372036854775807L;
 		long minlong=-9223372036854775808L;
-		System.out.println("Min range of long is"+min+"Max range of long is"+maxlong);
+		System.out.println("Min range of long is"+ minlong+"Max range of long is"+maxlong);
 		}
 
 }

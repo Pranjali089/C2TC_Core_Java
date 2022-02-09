@@ -29,8 +29,6 @@ public class ConstructorDemo {
 		Student s1=new Student();
 		s1.id=1;
 		s1.name="Rashmi";
-		s1.course="java";
-		s1.email="rasghj";
 		s1.display();
 		
 		Student s2=new Student(2,"Pranjali","Python","hfdthk");

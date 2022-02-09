@@ -7,7 +7,7 @@ public class HashSetDemo
 
 	public static void main(String[] args)
 	{
-		      SortedSet<String> hs=new SortedSet<String>();
+		      HashSet<String> hs=new HashSet<String>();
 		hs.add("Hash");
 		hs.add("Set");
 		hs.add("Demo");
